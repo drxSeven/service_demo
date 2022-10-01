@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { GreetingService } from './services/greeting.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'service_demo';
+
+  _greetingSER:GreetingService;
+
+  constructor(_greetingSERREF:GreetingService){
+    this._greetingSER = _greetingSERREF;
+  }
+
 }

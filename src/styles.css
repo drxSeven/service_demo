@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-color: rgb(26, 38, 53);
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+button{
+    padding: 20px;
+    border-radius: 12px;
+    border: none;
+    background-color: rgb(0, 255, 136);
+    margin: 12px;
+}
+button:hover{
+    background-color: rgb(62, 255, 165);
+}
+
+div{
+    background-color: rgb(51, 108, 112);
+    color: rgb(245, 245, 245);
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    width: 50vw;
+    margin-top: 20px;
+    
+}
